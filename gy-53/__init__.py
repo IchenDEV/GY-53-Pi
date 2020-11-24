@@ -25,8 +25,8 @@ class TOF:
         global ser
         ser = serial.Serial("/dev/ttyAMA0", baudRate)
         ser.flushInput()
-        ser.write(mode.Continuous)  # 连续输出距离数据
-        ser.write()  # 查询输出距离数据
+        ser.write(mode.Continuous)
+        ser.write()
 
     def save():
         ser.write(mode.Save)
