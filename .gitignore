@@ -1,0 +1,5 @@
+.vscode
+.pypirc
+dist
+build
+gy_53.egg-info
